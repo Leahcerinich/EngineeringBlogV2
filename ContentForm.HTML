@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type "text/css" href="Content/ContentForm.css">
+    <link rel="stylesheet" type="text/css" href="Style/bootstrap.css">
+    <link rel="stylesheet" type "text/css" href="https://getbootstrap.com/docs/3.3/css/">
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="ContentForm">
+        <h1>Submit Content below</h1>
+        <div class="bootstrap-iso">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <form method="post">
+                            <div class="form-group ">
+                                <label class="control-label requiredField" for="name">
+                                    Current Date
+                                    <span class="asteriskField">
+                                        *
+                                    </span>
+                                </label>
+                                <input class="form-control" id="name" name="name" placeholder="Current Date" type="text" />
+                                <span class="help-block" id="hint_name">
+                                </span>
+                            </div>
+                            <div class="bootstrap-iso">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <form method="post">
+                                            <div class="form-group ">
+                                                <label class="control-label requiredField" for="name">
+                                                    Title
+                                                    <span class="asteriskField">
+                                                        *
+                                                    </span>
+                                                </label>
+                                                <input class="form-control" id="name" name="name" placeholder="Title" type="text" />
+                                                <span class="help-block" id="hint_name">
+                                                    No more the 140 characters
+                                                </span>
+                                            </div>
+                                            <div class="bootstrap-iso">
+                                                <div class="container-fluid">
+                                                    <div class="row">
+                                                        <form method="post">
+                                                            <div class="form-group ">
+                                                                <label class="control-label requiredField" for="name">
+                                                                    Author
+                                                                    <span class="asteriskField">
+                                                                        *
+                                                                    </span>
+                                                                </label>
+                                                                <input class="form-control" id="name" name="name" placeholder="Author" type="text" />
+                                                                <span class="help-block" id="hint_name">
+                                                                    Author
+                                                                </span>
+                                                            </div>
+                                                            <div class="form-group ">
+                                                                <label class="control-label requiredField" for="message">
+                                                                    Post Article
+                                                                    <span class="asteriskField">
+                                                                        *
+                                                                    </span>
+                                                                </label>
+                                                                <textarea class="form-control" cols="40" id="message" name="message" placeholder="Write content here" rows="10"></textarea>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div>
+                                                                    <button class="btn btn-primary " name="submit" type="submit">
+                                                                        Post
+                                                                    </button>
+                                                                    <button class="btn btn-primary" name="submit" type="submit">
+                                                                        Edit</button>
+                                                                    <button class="btn btn-primary" name="submit" tyoe="submit">
+                                                                        Delete
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+</body>
+</html>
